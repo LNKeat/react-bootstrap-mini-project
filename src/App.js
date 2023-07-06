@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header.js';
 import About from './About';
 
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <BrowserRouter>
       <Routes>
-        <About path="/about" />
+        <Route exact path='/about' element={< About />}></Route>
       </Routes>
       </BrowserRouter>
     </div>
