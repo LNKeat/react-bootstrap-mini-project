@@ -1,6 +1,6 @@
 import React from 'react'
 
-const aboutReactList= ["Information", "More information here", "Bootstrap is super cool"]
+const aboutReactList= ["Information", "More information here", "Bootstrap is super cool", "Information 2", "More information here 2", "Bootstrap is super cool 2"]
 
 function About() {
   return (
